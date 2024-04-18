@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RollProbabilityDataSet" targetNamespace="http://tempuri.org/RollProbabilityDataSet.xsd" xmlns:mstns="http://tempuri.org/RollProbabilityDataSet.xsd" xmlns="http://tempuri.org/RollProbabilityDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RollProbabilityDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="RollProbabilityDataSet" msprop:Generator_UserDSName="RollProbabilityDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rollprobability" msprop:Generator_TableClassName="rollprobabilityDataTable" msprop:Generator_TableVarName="tablerollprobability" msprop:Generator_TablePropName="rollprobability" msprop:Generator_RowDeletingName="rollprobabilityRowDeleting" msprop:Generator_RowChangingName="rollprobabilityRowChanging" msprop:Generator_RowEvHandlerName="rollprobabilityRowChangeEventHandler" msprop:Generator_RowDeletedName="rollprobabilityRowDeleted" msprop:Generator_UserTableName="rollprobability" msprop:Generator_RowChangedName="rollprobabilityRowChanged" msprop:Generator_RowEvArgName="rollprobabilityRowChangeEvent" msprop:Generator_RowClassName="rollprobabilityRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DiceRoll" msprop:Generator_ColumnVarNameInTable="columnDiceRoll" msprop:Generator_ColumnPropNameInRow="DiceRoll" msprop:Generator_ColumnPropNameInTable="DiceRollColumn" msprop:Generator_UserColumnName="DiceRoll" type="xs:int" minOccurs="0" />
+              <xs:element name="Probability" msprop:Generator_ColumnVarNameInTable="columnProbability" msprop:Generator_ColumnPropNameInRow="Probability" msprop:Generator_ColumnPropNameInTable="ProbabilityColumn" msprop:Generator_UserColumnName="Probability" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

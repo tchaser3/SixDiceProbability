@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DiceBreakDownDataSet" targetNamespace="http://tempuri.org/DiceBreakDownDataSet.xsd" xmlns:mstns="http://tempuri.org/DiceBreakDownDataSet.xsd" xmlns="http://tempuri.org/DiceBreakDownDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DiceBreakDownDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DiceBreakDownDataSet" msprop:Generator_UserDSName="DiceBreakDownDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dicebreakdown" msprop:Generator_TableClassName="dicebreakdownDataTable" msprop:Generator_TableVarName="tabledicebreakdown" msprop:Generator_TablePropName="dicebreakdown" msprop:Generator_RowDeletingName="dicebreakdownRowDeleting" msprop:Generator_RowChangingName="dicebreakdownRowChanging" msprop:Generator_RowEvHandlerName="dicebreakdownRowChangeEventHandler" msprop:Generator_RowDeletedName="dicebreakdownRowDeleted" msprop:Generator_UserTableName="dicebreakdown" msprop:Generator_RowChangedName="dicebreakdownRowChanged" msprop:Generator_RowEvArgName="dicebreakdownRowChangeEvent" msprop:Generator_RowClassName="dicebreakdownRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Dice1" msprop:Generator_ColumnVarNameInTable="columnDice1" msprop:Generator_ColumnPropNameInRow="Dice1" msprop:Generator_ColumnPropNameInTable="Dice1Column" msprop:Generator_UserColumnName="Dice1" type="xs:int" minOccurs="0" />
+              <xs:element name="Dice2" msprop:Generator_ColumnVarNameInTable="columnDice2" msprop:Generator_ColumnPropNameInRow="Dice2" msprop:Generator_ColumnPropNameInTable="Dice2Column" msprop:Generator_UserColumnName="Dice2" type="xs:int" minOccurs="0" />
+              <xs:element name="Dice3" msprop:Generator_ColumnVarNameInTable="columnDice3" msprop:Generator_ColumnPropNameInRow="Dice3" msprop:Generator_ColumnPropNameInTable="Dice3Column" msprop:Generator_UserColumnName="Dice3" type="xs:int" minOccurs="0" />
+              <xs:element name="Dice4" msprop:Generator_ColumnVarNameInTable="columnDice4" msprop:Generator_ColumnPropNameInRow="Dice4" msprop:Generator_ColumnPropNameInTable="Dice4Column" msprop:Generator_UserColumnName="Dice4" type="xs:int" minOccurs="0" />
+              <xs:element name="Dice5" msprop:Generator_ColumnVarNameInTable="columnDice5" msprop:Generator_ColumnPropNameInRow="Dice5" msprop:Generator_ColumnPropNameInTable="Dice5Column" msprop:Generator_UserColumnName="Dice5" type="xs:int" minOccurs="0" />
+              <xs:element name="Dice6" msprop:Generator_ColumnVarNameInTable="columnDice6" msprop:Generator_ColumnPropNameInRow="Dice6" msprop:Generator_ColumnPropNameInTable="Dice6Column" msprop:Generator_UserColumnName="Dice6" type="xs:int" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
